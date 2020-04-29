@@ -1,0 +1,102 @@
+body {
+  background-color: #f8f9fc;
+  font-family: Roboto, sans-serif;
+  color: #585f7d;
+  line-height: 1.2;
+  text-align: center
+}
+
+h1, h2, h3 {
+  color: #4b5169;
+}
+
+h1, h2 {
+  font-family: "Libre Baskerville";
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+a {
+  color: #8bbabb;
+  text-decoration: none;
+  border-color: #585f7d;
+  border-radius: 3px;
+}
+
+a:hover {
+  color: #464b63;
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px #ececef;
+  margin: 20px;
+}
+
+#banner img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.btn {
+  margin-top: 0;
+}
+
+.btn a {
+  border: 1px solid #393E46;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: #393E46;
+}
+
+.btn a:hover {
+  color: #DADADA;
+  border: 1px solid #DADADA;
+  text-decoration: none;
+  transition: .1s;
+}
+
+#footer ul {
+  padding: 0;
+}
+
+#footer li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 32px;
+}
+
+@media (min-width: 350px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (min-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
